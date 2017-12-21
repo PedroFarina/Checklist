@@ -1,0 +1,12 @@
+c:\users\pedro\documents\visual studio 2015\Projects\Checklist\Checklist\bin\Debug\Checklist.exe.config
+c:\users\pedro\documents\visual studio 2015\Projects\Checklist\Checklist\bin\Debug\Checklist.exe
+c:\users\pedro\documents\visual studio 2015\Projects\Checklist\Checklist\bin\Debug\Checklist.pdb
+c:\users\pedro\documents\visual studio 2015\Projects\Checklist\Checklist\obj\Debug\Checklist.csprojResolveAssemblyReference.cache
+c:\users\pedro\documents\visual studio 2015\Projects\Checklist\Checklist\obj\Debug\Checklist.Properties.Resources.resources
+c:\users\pedro\documents\visual studio 2015\Projects\Checklist\Checklist\obj\Debug\Checklist.csproj.GenerateResource.Cache
+c:\users\pedro\documents\visual studio 2015\Projects\Checklist\Checklist\obj\Debug\Checklist.exe
+c:\users\pedro\documents\visual studio 2015\Projects\Checklist\Checklist\obj\Debug\Checklist.pdb
+C:\Users\Pedro\Documents\Visual Studio 2015\Projects\Checklist\Checklist\obj\Debug\Checklist.frmPrincipal.resources
+C:\Users\Pedro\Documents\Visual Studio 2015\Projects\Checklist\Checklist\bin\Debug\MyInputBox.dll
+C:\Users\Pedro\Documents\Visual Studio 2015\Projects\Checklist\Checklist\bin\Debug\MyInputBox.pdb
+C:\Users\Pedro\Documents\Visual Studio 2015\Projects\Checklist\Checklist\obj\Debug\Checklist.TaskMaker.resources

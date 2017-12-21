@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checklist", "Checklist\Checklist.csproj", "{3B566629-C72C-4EFD-98B0-FD9183A7630C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyInputBox", "..\MyInputBox\MyInputBox\MyInputBox.csproj", "{474DE1E4-B5D2-41FF-A6BE-12E6A67079F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B566629-C72C-4EFD-98B0-FD9183A7630C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B566629-C72C-4EFD-98B0-FD9183A7630C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B566629-C72C-4EFD-98B0-FD9183A7630C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B566629-C72C-4EFD-98B0-FD9183A7630C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474DE1E4-B5D2-41FF-A6BE-12E6A67079F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474DE1E4-B5D2-41FF-A6BE-12E6A67079F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474DE1E4-B5D2-41FF-A6BE-12E6A67079F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474DE1E4-B5D2-41FF-A6BE-12E6A67079F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
