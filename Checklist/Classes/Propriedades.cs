@@ -31,6 +31,5 @@
             }
         }
         public delegate void WritingStateChange(bool value);
-
     }
 }
