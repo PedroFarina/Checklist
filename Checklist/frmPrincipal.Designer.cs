@@ -89,7 +89,7 @@
             // 
             this.lbCheck.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lbCheck.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.lbCheck.Font = new System.Drawing.Font("Perpetua Titling MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCheck.Font = new System.Drawing.Font("Perpetua Titling MT", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCheck.FormattingEnabled = true;
             this.lbCheck.ItemHeight = 20;
             this.lbCheck.Location = new System.Drawing.Point(6, 19);
@@ -151,34 +151,34 @@
             this.moverParaToolStripMenuItem,
             this.helpToolStripMenuItem});
             this.stripChecklist.Name = "stripAdicionarRemover";
-            this.stripChecklist.Size = new System.Drawing.Size(153, 114);
+            this.stripChecklist.Size = new System.Drawing.Size(135, 92);
             this.stripChecklist.Opening += new System.ComponentModel.CancelEventHandler(this.stripAdicionarRemover_Opening);
             // 
             // adicionarToolStripMenuItem
             // 
             this.adicionarToolStripMenuItem.Name = "adicionarToolStripMenuItem";
-            this.adicionarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.adicionarToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.adicionarToolStripMenuItem.Text = "Adicionar";
             this.adicionarToolStripMenuItem.Click += new System.EventHandler(this.adicionarToolStripMenuItem_Click);
             // 
             // removerToolStripMenuItem
             // 
             this.removerToolStripMenuItem.Name = "removerToolStripMenuItem";
-            this.removerToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.removerToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.removerToolStripMenuItem.Text = "Remover";
             this.removerToolStripMenuItem.Click += new System.EventHandler(this.removerToolStripMenuItem_Click);
             // 
             // moverParaToolStripMenuItem
             // 
             this.moverParaToolStripMenuItem.Name = "moverParaToolStripMenuItem";
-            this.moverParaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.moverParaToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.moverParaToolStripMenuItem.Tag = "MoveTo";
             this.moverParaToolStripMenuItem.Text = "Mover Para";
             // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.helpToolStripMenuItem.Text = "Help";
             this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
             // 

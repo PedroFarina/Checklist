@@ -69,7 +69,11 @@ namespace Checklist
                     });
 
                 default:
-                    return new Task(() =>{});
+                    return new Task(() =>
+                    {
+                        MessageBox.Show("Não há dica para esta tarefa.");
+                    }
+                    );
             }
         }
         

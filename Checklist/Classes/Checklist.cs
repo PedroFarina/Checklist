@@ -12,10 +12,6 @@ namespace Checklist.Classes
 {
     public class Checklist
     {
-        public Checklist()
-        {
-            ResetID();
-        }
         public string Name { get; set; }
         public List<Item> Items { get; set; } = new List<Item>();
         public bool Accessible { get; set; }
@@ -35,7 +31,7 @@ namespace Checklist.Classes
             {
                 string nome = MyInputBox.InputBox.Show("", "Tarefa:");
                 State estado = State.Doing;
-                Items.Add(new Item() { Description = nome, Value = estado, Helper = TaskMaker.Show() });
+                Items.Add(new Item(this) { Description = nome, Value = estado, Helper = TaskMaker.Show() });
                 this.WriteConfigs();
                 return true;
             }
@@ -45,6 +41,7 @@ namespace Checklist.Classes
         {
             if (Accessible)
             {
+                item.ID = new Item(this).ID;
                 Items.Add(item);
                 this.WriteConfigs();
                 return true;
@@ -71,9 +68,18 @@ namespace Checklist.Classes
     [Serializable]
     public class Item
     {
-        public Item()
+        public Item() { }
+        public Item(Checklist Parent)
         {
-            ID = IDGenerator;
+            int i = 1;
+            foreach (Item item in Parent.Items.OrderBy(x => x.ID))
+            {
+                if (item.ID == i)
+                {
+                    i += 1;
+                }
+            }
+            ID = i;
         }
         public int ID { get; set; }
         public string Display { get { return Description + " - " + Value.ToString(); } }
@@ -87,19 +93,6 @@ namespace Checklist.Classes
     }
     public static class ChecklistExtensions
     {
-        private static int _IDGenerator = -1;
-        public static int IDGenerator
-        {
-            get
-            {
-                _IDGenerator += 1;
-                return _IDGenerator;
-            }
-        }
-        public static void ResetID()
-        {
-            _IDGenerator = -1;
-        }
         public enum State { Doing, Urgent, Done };
         public static Checklist ReadChecklist(string ChecklistPath)
         {
